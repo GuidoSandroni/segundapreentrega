@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:red;
+    height: 95px;
+    width: 100%;
+    padding: 25px;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.logo{
+    float: left;
+    margin-left: 30px;
+}
+.barra{
+    float: right;
+}
+
+.barra ul li{
+    list-style: none;
+    display: inline-block;
+}
+.barra a{
+    color: azure;
+    text-decoration: underline;
+    margin-right: 20px;
+}
+
+
+
+main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/gift-ribbon-4612361_1280.jpg);
+    background-size: cover;
+    opacity: 1;
+    
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 350%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+
+.N50{
+    margin-left: 145px;
+    display: grid;
+    justify-items: center;
+}
+
+
+.footer{
+    background-color:red;
+    height: 230px;
+    width: 100%;
+    padding: 150px;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    padding-top: 0%;
+    
+}
+
+h2{
+    text-align:center;
+}
+
+h5{
+    text-align: center;
+    
+}
+
+h6{
+    text-align: right;
+}
+
+.myv{
+    font-size: 60px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text1{
+    font-size: 30px;
+    color: rgb(253, 59, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+.text2{
+    font-size: 30px;
+    color: rgb(253, 59, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+
+.pag2{
+    opacity: 0.8;
+    background-color: orange;
+}
+
+.producton50{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.moño1{
+    display:grid ;
+    justify-items: center;
+    background-color: #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.moño2{
+    display:grid;
+   justify-items:center;
+   background-color: #333;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.moño3{
+    display:grid;
+   justify-items:center;
+   background-color: #333;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.moño4{
+    display:grid;
+   justify-items:center;
+   background-color: #333;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.moño5{
+    display:grid;
+   justify-items:center;
+   background-color: #333;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.moño6{
+    display:grid;
+   justify-items:center;
+   background-color: #333;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.colores{
+    color: white;
+}
+
+.footer2{
+    background-color:red;
+    height: 200px;
+    width: 100%;
+    padding: 20px 10px 100px 5px;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    padding-top: 0px;
+       
+}
+
+.btns {
+    align-items: center;
+}
+
+.cc-info {
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.pag4{
+    background-color: #333;
+}
+
+.pag3{
+    background-image: url(img/gift-ribbon-4612361_1280.jpg);
+}
+
+.wrapper {
+    margin-top: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: "Arimo";
+    background-color: rgb(31, 31, 31);
+    -webkit-box-shadow: 9px 13px 25px 0px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 9px 13px 25px 0px rgba(0, 0, 0, 0.18);
+    box-shadow: 9px 13px 25px 0px rgba(0, 0, 0, 0.18);
+    animation: slideUp 2000ms ease;
+}
+
+@keyframes slideUp {
+    0% {
+        -webkit-transform: translateY(100%);
+        transform: translateY(100%);
+        visibility: visible;
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+
+    }
+    
+}
+
+.containerpago {
+    width: 65%;
+    padding: 5% 10%;
+}
+
+input {
+    width: 100%;
+    min-height: 25px;
+    border: 0;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    font-family: "Arimo";
+    margin-top: 5px;
+    color: maroon;
+    border-radius: 4px;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: rgb(255, 0, 0);
+}
+
+.name {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+
+    div {
+        width: 45%;
+    }
+}
+
+.address-info {
+    display: flex;
+    justify-content: space-between;
+
+    div {
+        width: 30%;
+    }
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+
+    button {
+        margin: 3px 0;
+        height: 30px;
+        width: 100%;
+        color: #ff0000;
+        background-color: #f7f7f7;
+        text-transform: uppercase;
+        border: 0;
+        border-radius: .3rem;
+        letter-spacing: 2px;
+
+        :hover {
+            animation-name: btn-hov;
+            animation-duration: 550ms;
+            animation-fill-mode: forwards;
+        }
+    }
+}
+
+.fondo{
+    background-color:rgb(253, 237, 237);
+}
+
+.article{
+    height: 100vh;
+    width: 100%;
+    
+}
+.footer1{
+    font-size: 15px;
+    color: white;
+
+    
+
+}
+
+.links{
+    color: #333;
+    text-decoration: #333;
+}
+
+.grids{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:5px;
+    object-fit:contain;
+
+}
+
+.galeria{
+    width: 100%;
+    height: 86%;
+    object-fit: scale-down;
+}
+
+
+@media (max-width:1173px) {
+    .barra{
+        height: auto;
+        flex-direction: column;
+        font-size: 30px;
+        
+        
+    }
+
+    
+    .footer{
+        text-align: center;
+    }
+    .footer1{
+        height: 30px;
+    }
+    h6{
+        text-align: center;
+    }
+
+
+
+}
+@media (max-width:1005px) {
+    .barra{
+        display:contents;
+          
+    }
+    
+}
+
+@media (max-width:768px) {
+    .barra{
+        display:contents;
+        font-size: 23px;
+    }
+    .logo{
+        font-size: 20px;
+    }
+    .barra ul li{
+        text-align:right;
+    }
+}
+
+@media (max-width:752px){
+    .barra{
+        font-size: 29px;
+    }
+}
+
+@media (max-width:426px){
+    .logo{
+        font-size: 15px;
+        text-align:start;
+    }
+    .barra{
+        font-size: 15px;
+        text-align:end;
+        
+
+    }
+    .footer{
+        font-size: 10px;
+        
+    }
+    .footer1{
+        font-size: 10px;
+        text-align: inherit;
+    }
+    
+
+}
+
+@media (max-width: 622px){
+    .barra{
+        font-size: 25px;
+        
+    }
+    .logo{
+        font-size: 25px;
+        display:inline-flex;
+    }
+}
+
+@media(max-width:618px){
+    .barra{
+        font-size: 23px;
+    }
+}
+@media(max-width:586px){
+    .barra{
+        font-size: 21px;
+    }
+    
+        
+}
+@media(max-width:488px){
+    .barra{
+        font-size: 20px;
+        display: block;
+    }
+    .logo{
+        font-size: 20px;
+        
+    }
+    .footer{
+        font-size: 15px;
+    }
+    .footer1{
+        font-size: 12px;
+    }
+}
+@media(max-width:467px){
+    .barra{
+        font-size: 15px;
+        margin-right: 20px;
+    }
+    .footer{
+        font-size: 15px;
+    }
+    .footer1{
+        font-size: 11px;
+    }
+}
+@media(max-width:519px){
+    .footer{
+        font-size: 15px;
+    }
+    .footer1{
+        font-size: 10px;
+    }
+}
