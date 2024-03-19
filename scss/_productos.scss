@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .moño1, .moño2, .moño3, .moño4, .moño5, .moño6 {
+    display: grid;
+    justify-items: center;
+    background-color: #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 15%;
+  }
+  
+  .colores {
+    color: white;
+  }
+  
+  .pag3 {
+    background-image: url(img/gift-ribbon-4612361_1280.jpg);
+    background-size: cover;
+  }

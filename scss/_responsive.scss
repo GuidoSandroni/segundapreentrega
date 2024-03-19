@@ -1,0 +1,298 @@
+@media (max-width: 1448px) {
+    .container {
+      flex-direction: row;
+  
+      .moño1 {
+        display: grid;
+        justify-items: center;
+        background-color: #333;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 40%;
+        order: 1;
+      }
+  
+      .moño2 {
+        display: grid;
+        justify-items: center;
+        background-color: #333;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 40%;
+        order: 2;
+      }
+  
+      .moño3 {
+        display: grid;
+        justify-items: center;
+        background-color: #333;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 40%;
+        order: 3;
+      }
+  
+      .moño4 {
+        display: grid;
+        justify-items: center;
+        background-color: #333;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 40%;
+        order: 4;
+      }
+  
+      .moño5 {
+        display: grid;
+        justify-items: center;
+        background-color: #333;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 40%;
+        order: 5;
+      }
+  
+      .moño6 {
+        display: grid;
+        justify-items: center;
+        background-color: #333;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 40%;
+        order: 6;
+      }
+    }
+  }
+  
+  @media (max-width: 1319px) {
+    .container {
+      flex-wrap: nowrap;
+      flex-direction: row;
+  
+      .moño1 {
+        display: grid;
+        justify-items: center;
+        background-color: #333;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 40%;
+        order: 1;
+      }
+  
+      .moño2 {
+        display: grid;
+        justify-items: center;
+        background-color: #333;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 40%;
+        order: 2;
+      }
+  
+      .moño3 {
+        display: grid;
+        justify-items: center;
+        background-color: #333;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 40%;
+        order: 3;
+      }
+  
+      .moño4 {
+        display: grid;
+        justify-items: center;
+        background-color: #333;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 40%;
+        order: 4;
+      }
+  
+      .moño5 {
+        display: grid;
+        justify-items: center;
+        background-color: #333;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 40%;
+        order: 5;
+      }
+  
+      .moño6 {
+        display: grid;
+        justify-items: center;
+        background-color: #333;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 40%;
+        order: 6;
+      }
+    }
+  }
+  
+  @media (max-width: 1173px) {
+    .barra {
+      display: contents;
+      font-size: 30px;
+      width: 100%;
+    }
+  
+    .footer {
+      text-align: center;
+    }
+  
+    .footer1 {
+      height: 30px;
+    }
+  
+    h6 {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 1005px) {
+    .barra {
+      display: contents;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .barra {
+      display: contents;
+      font-size: 23px;
+      width: 100%;
+    }
+  
+    .logo {
+      font-size: 20px;
+    }
+  
+    .barra ul li {
+      text-align: right;
+    }
+  }
+  
+  @media (max-width: 752px) {
+    .barra {
+      font-size: 29px;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 426px) {
+    .logo {
+      font-size: 15px;
+      text-align: start;
+    }
+  
+    .barra {
+      font-size: 15px;
+      text-align: end;
+      width: 100%;
+    }
+  
+    .footer {
+      font-size: 10px;
+      height: 260px;
+    }
+  
+    .footer1 {
+      font-size: 10px;
+      text-align: inherit;
+    }
+  
+    .idp {
+      font-size: 25px;
+    }
+  
+    .pagproductos {
+      object-fit: cover;
+    }
+  }
+  
+  @media (max-width: 622px) {
+    .barra {
+      font-size: 25px;
+      width: 100%;
+    }
+  
+    .logo {
+      font-size: 25px;
+      display: inline-flex;
+    }
+  }
+  
+  @media (max-width: 618px) {
+    .barra {
+      font-size: 23px;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 586px) {
+    .barra {
+      font-size: 21px;
+    }
+  }
+  
+  @media (max-width: 488px) {
+    .barra {
+      font-size: 20px;
+      display: block;
+      width: 100%;
+    }
+  
+    .logo {
+      font-size: 20px;
+    }
+  
+    .footer {
+      font-size: 15px;
+    }
+  
+    .footer1 {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 467px) {
+    .barra {
+      font-size: 15px;
+      margin-right: 20px;
+      width: 100%;
+    }
+  
+    .footer {
+      font-size: 15px;
+    }
+  
+    .footer1 {
+      font-size: 11px;
+    }
+  }
+  
+  @media (max-width: 519px) {
+    .footer {
+      font-size: 15px;
+    }
+  
+    .footer1 {
+      font-size: 10px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .container {
+      object-fit: scale-down;
+    }
+  
+    .barra {
+      display: contents;
+    }
+  }
+  
+  @media (max-width: 626px) {
+    .text1, .text2 {
+      font-size: 25px;
+    }
+  
+    .sn, .myv {
+      font-size: 45px;
+    }
+  }
+  
+  @media (max-width: 452px) {
+    .text1, .text2 {
+      font-size: 20px;
+    }
+  }

@@ -1,0 +1,86 @@
+.fondo {
+    background-size: cover;
+  }
+  
+  .myv {
+    font-size: 60px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .text1 {
+    font-size: 30px;
+    color: rgb(253, 59, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  .text2 {
+    font-size: 30px;
+    color: rgb(253, 59, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    animation-duration: 3s;
+    animation-name: slidein;
+    text-align: center;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+  .fondo {
+        background: repeating-linear-gradient(
+            90deg,
+            transparent, transparent 50px,
+            rgba(255, 0, 0, 0.25) 50px,
+            rgba(255, 0, 0, 0.26) 56px, transparent 56px, transparent 63px,
+            rgba(255, 0, 0, 0.25) 63px,
+            rgba(255, 0, 0, 0.25) 69px, transparent 69px, transparent 116px,
+            rgb(255 206 0 / 25%) 116px,
+            rgb(255 206 0 / 25%) 166px),
+            repeating-linear-gradient(0deg, transparent, transparent 50px,
+            rgba(255, 0, 0, 0.25) 50px,
+            rgba(255, 0, 0, 0.25) 56px, transparent 56px, transparent 63px,
+            rgba(255, 0, 0, 0.25) 63px,
+            rgba(255, 0, 0, 0.25) 69px, transparent 69px, transparent 116px,
+            rgba(255, 0, 0, 0.25) 116px,
+            rgba(255, 0, 0, 0.25) 166px),
+            repeating-linear-gradient(-45deg, transparent, transparent 5px,
+            rgb(143 77 63 / 25%) 5px,
+            rgb(143 77 63 / 25%) 10px),
+            repeating-linear-gradient(45deg, transparent, transparent 5px,
+            rgb(143 77 63 / 25%) 5px,
+            rgb(143 77 63 / 25%) 10px);
+    background: repeating-linear-gradient(
+        90deg,
+        transparent 0 50px,
+        rgba(245, 40, 40, 0.25) 50px 56px, transparent 56px 63px,
+        rgba(245, 40, 40, 0.25) 63px 69px, transparent 69px 116px,
+        rgba(151, 83, 83, 0.25) 116px 166px), repeating-linear-gradient(0deg, transparent 0 50px,
+        rgba(204, 85, 85, 0.25) 50px 56px, transparent 56px 63px,
+        rgba(179, 62, 62, 0.25) 63px 69px, transparent 69px 116px,
+        rgba(218, 91, 91, 0.25) 116px 166px), repeating-linear-gradient(-45deg, transparent 0 5px,
+        rgba(255, 255, 255, 0.25) 5px 10px), repeating-linear-gradient(45deg, transparent 0 5px,
+        rgb(143 77 63 / 25%) 5px 10px);
+  }
+  
+  .article {
+    height: 100vh;
+    width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 350%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }

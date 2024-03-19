@@ -1,0 +1,39 @@
+.footer {
+  background-color: red;
+  height: max-content;
+  width: 100%;
+  padding: 95px;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(255, 255, 255);
+  padding-top: 0%;
+}
+
+h2, h5 {
+  text-align: center;
+}
+
+h6 {
+  text-align: right;
+}
+
+.footer2 {
+  background-color:$color-rojo;
+  height: 200px;
+  width: 100%;
+  padding: 20px 10px 100px 5px;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  padding-top: 0px;
+}
+
+.footer1 {
+  font-size: 15px;
+  color: white;
+}
+
+.links {
+  color: #333;
+  text-decoration: #333;
+}
